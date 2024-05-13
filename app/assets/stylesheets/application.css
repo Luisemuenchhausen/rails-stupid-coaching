@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+ .main-heading {
+  color: #333; /* Example color */
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+/* Style the paragraph */
+p {
+  color: #666; /* Example color */
+  font-size: 18px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+/* Style the form and its elements */
+#question-form {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 40px;
+}
+
+#question-form input[type="text"],
+#question-form input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Example border color */
+}
+
+#question-form input[type="submit"] {
+  background-color: #007bff; /* Example background color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#question-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Example hover color */
+}
